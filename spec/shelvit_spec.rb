@@ -3,6 +3,12 @@
 RSpec.describe Shelvit do
   subject { described_class.normalize(call_number) }
 
+  context 'with a nil call number' do
+    let(:call_number) { nil }
+
+    it { is_expected.to be_nil }
+  end
+
   context 'with a type LC number' do
     let(:call_number) { 'AB123 .C456 2000' }
 

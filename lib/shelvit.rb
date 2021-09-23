@@ -7,6 +7,8 @@ class Shelvit
   LOWER_MAP = ('a'..'z').to_a.zip(('00'..'26').to_a).to_h
 
   def self.normalize(call_number)
+    return if call_number.nil?
+
     Lcsort.normalize(call_number) || Lcsort.normalize(cleaned(call_number))
   end
 

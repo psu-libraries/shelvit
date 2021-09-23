@@ -11,6 +11,7 @@ Gem::Specification.new do |spec|
   spec.summary       = 'Generates normalized shelf keys from call numbers, using the Lcsort gem.'
   spec.description   = 'Shelvit extends the functionality of Lcsort by cleaning unsortable call'\
                        'numbers before attempting to normalize them again.'
+  spec.homepage      = 'https://github.com/psu-libraries/shelvit'
   spec.license       = 'MIT'
 
   # Specify which files should be added to the gem when it is released.

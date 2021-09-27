@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    shelvit (0.1.1)
+    shelvit (0.1.2)
       lcsort (~> 0.9)
 
 GEM

@@ -23,11 +23,11 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
 
-  spec.required_ruby_version = '>= 3.1.0'
+  spec.required_ruby_version = '>= 3.4.11'
 
-  spec.add_development_dependency 'rake', '~> 13.0'
-  spec.add_development_dependency 'rspec', '~> 3.0'
-  spec.add_development_dependency 'rubocop', '~> 1.7'
+  spec.add_development_dependency 'rake', '~> 13.4.2'
+  spec.add_development_dependency 'rspec', '~> 3.13.2'
+  spec.add_development_dependency 'rubocop', '~> 1.92.0'
 
-  spec.add_runtime_dependency 'lcsort', '~> 0.9'
+  spec.add_runtime_dependency 'lcsort', '~> 0.9.1'
 end

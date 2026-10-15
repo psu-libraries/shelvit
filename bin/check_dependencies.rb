@@ -28,5 +28,5 @@ lines.each do |l|
 end
 
 result.each do |key, value|
-  puts "spec.add_dependency '#{key}', '~> #{value}'"
+  puts "'#{key}', '~> #{value}'"
 end
